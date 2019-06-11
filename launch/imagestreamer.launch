@@ -1,0 +1,5 @@
+<launch>
+    <param name="/consolemode" value="1"/>
+    <node pkg="image_transport_tutorial" type="my_publisher" name="imagestreamer" args="/home/student/Pictures/test9_detection.jpg" output="screen">
+    </node>
+</launch>
